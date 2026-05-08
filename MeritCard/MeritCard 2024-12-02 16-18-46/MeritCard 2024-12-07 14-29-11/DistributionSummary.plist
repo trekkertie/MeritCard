@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MeritCard.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>65A85DD594E54A2214BBEF9B7C8FF30E36AD9D2E</string>
+				<key>dateExpires</key>
+				<string>02/12/2025</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>Z53GZUGWRB.com.MeritCard</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>Z53GZUGWRB</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>MeritCard.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a8e2bd63-d889-4b29-a2db-1e0fa506c312</string>
+				<key>dateExpires</key>
+				<string>02/12/2025</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.MeritCard</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>Z53GZUGWRB</string>
+				<key>name</key>
+				<string>Jonathan Preston</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

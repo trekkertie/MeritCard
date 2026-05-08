@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 100;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1096DC22C6D234C002973DB /* MeritCardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1096DC12C6D234C002973DB /* MeritCardDetail.swift */; };
+		F11F09E52CDD48C700FD25C6 /* MeritLoadInitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11F09E42CDD48C700FD25C6 /* MeritLoadInitialData.swift */; };
+		F13998BD2E81B7CA00202F7B /* MeritAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13998BC2E81B7CA00202F7B /* MeritAbout.swift */; };
+		F1456E952C750AFA005AED70 /* MeritCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1456E942C750AFA005AED70 /* MeritCell.swift */; };
+		F1533BA52CBADDF30032C824 /* MeritLogFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1533BA42CBADDF30032C824 /* MeritLogFileView.swift */; };
 		F159C7B22C63AD8C00558F36 /* MeritCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159C7B12C63AD8C00558F36 /* MeritCardApp.swift */; };
 		F159C7B42C63AD8C00558F36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159C7B32C63AD8C00558F36 /* ContentView.swift */; };
 		F159C7B62C63AD8D00558F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F159C7B52C63AD8D00558F36 /* Assets.xcassets */; };
@@ -14,6 +19,14 @@
 		F159C7C32C63AD8D00558F36 /* MeritCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159C7C22C63AD8D00558F36 /* MeritCardTests.swift */; };
 		F159C7CD2C63AD8D00558F36 /* MeritCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159C7CC2C63AD8D00558F36 /* MeritCardUITests.swift */; };
 		F159C7CF2C63AD8D00558F36 /* MeritCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159C7CE2C63AD8D00558F36 /* MeritCardUITestsLaunchTests.swift */; };
+		F159C7DC2C63B78800558F36 /* Merit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159C7DB2C63B78800558F36 /* Merit.swift */; };
+		F159C7DE2C63B8F100558F36 /* MeritCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159C7DD2C63B8F100558F36 /* MeritCard.swift */; };
+		F159F25E2EAFCA2F00F8ECF2 /* MeritSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159F25D2EAFCA2F00F8ECF2 /* MeritSettingsView.swift */; };
+		F185A2D22ED9FE1100A7C254 /* MeritIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F185A2D12ED9FE1100A7C254 /* MeritIcon.swift */; };
+		F1A5B0D82CB9692900DE5E00 /* MeritLogFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A5B0D72CB9691900DE5E00 /* MeritLogFile.swift */; };
+		F1A709282C92FD6E00CFFBEE /* MeritDetailChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A709272C92FD6E00CFFBEE /* MeritDetailChange.swift */; };
+		F1D594BF2E7D9F22008F4810 /* MeritCelebration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D594BE2E7D9F22008F4810 /* MeritCelebration.swift */; };
+		F1ED0D3C2CEE737600906E38 /* MeritEnterPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ED0D3B2CEE737600906E38 /* MeritEnterPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1096DC12C6D234C002973DB /* MeritCardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritCardDetail.swift; sourceTree = "<group>"; };
+		F11F09E42CDD48C700FD25C6 /* MeritLoadInitialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritLoadInitialData.swift; sourceTree = "<group>"; };
+		F13998BC2E81B7CA00202F7B /* MeritAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritAbout.swift; sourceTree = "<group>"; };
+		F1456E942C750AFA005AED70 /* MeritCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritCell.swift; sourceTree = "<group>"; };
+		F1533BA42CBADDF30032C824 /* MeritLogFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritLogFileView.swift; sourceTree = "<group>"; };
 		F159C7AE2C63AD8C00558F36 /* MeritCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeritCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F159C7B12C63AD8C00558F36 /* MeritCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritCardApp.swift; sourceTree = "<group>"; };
 		F159C7B32C63AD8C00558F36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,29 +62,31 @@
 		F159C7C82C63AD8D00558F36 /* MeritCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeritCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F159C7CC2C63AD8D00558F36 /* MeritCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritCardUITests.swift; sourceTree = "<group>"; };
 		F159C7CE2C63AD8D00558F36 /* MeritCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F159C7DB2C63B78800558F36 /* Merit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merit.swift; sourceTree = "<group>"; };
+		F159C7DD2C63B8F100558F36 /* MeritCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritCard.swift; sourceTree = "<group>"; };
+		F159F25D2EAFCA2F00F8ECF2 /* MeritSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritSettingsView.swift; sourceTree = "<group>"; };
+		F185A2D12ED9FE1100A7C254 /* MeritIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritIcon.swift; sourceTree = "<group>"; };
+		F1A5B0D72CB9691900DE5E00 /* MeritLogFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritLogFile.swift; sourceTree = "<group>"; };
+		F1A709272C92FD6E00CFFBEE /* MeritDetailChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritDetailChange.swift; sourceTree = "<group>"; };
+		F1D594BE2E7D9F22008F4810 /* MeritCelebration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritCelebration.swift; sourceTree = "<group>"; };
+		F1ED0D3B2CEE737600906E38 /* MeritEnterPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeritEnterPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F159C7AB2C63AD8C00558F36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F159C7BB2C63AD8D00558F36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F159C7C52C63AD8D00558F36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -95,7 +115,20 @@
 			isa = PBXGroup;
 			children = (
 				F159C7B12C63AD8C00558F36 /* MeritCardApp.swift */,
+				F11F09E42CDD48C700FD25C6 /* MeritLoadInitialData.swift */,
+				F159C7DB2C63B78800558F36 /* Merit.swift */,
+				F159C7DD2C63B8F100558F36 /* MeritCard.swift */,
+				F185A2D12ED9FE1100A7C254 /* MeritIcon.swift */,
+				F1A5B0D72CB9691900DE5E00 /* MeritLogFile.swift */,
+				F13998BC2E81B7CA00202F7B /* MeritAbout.swift */,
 				F159C7B32C63AD8C00558F36 /* ContentView.swift */,
+				F159F25D2EAFCA2F00F8ECF2 /* MeritSettingsView.swift */,
+				F1096DC12C6D234C002973DB /* MeritCardDetail.swift */,
+				F1456E942C750AFA005AED70 /* MeritCell.swift */,
+				F1D594BE2E7D9F22008F4810 /* MeritCelebration.swift */,
+				F1A709272C92FD6E00CFFBEE /* MeritDetailChange.swift */,
+				F1533BA42CBADDF30032C824 /* MeritLogFileView.swift */,
+				F1ED0D3B2CEE737600906E38 /* MeritEnterPassword.swift */,
 				F159C7B52C63AD8D00558F36 /* Assets.xcassets */,
 				F159C7B72C63AD8D00558F36 /* Preview Content */,
 			);
@@ -139,8 +172,6 @@
 				F159C7AC2C63AD8C00558F36 /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			name = MeritCard;
 			productName = MeritCard;
@@ -191,7 +222,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					F159C7AD2C63AD8C00558F36 = {
 						CreatedOnToolsVersion = 15.4;
@@ -207,7 +238,6 @@
 				};
 			};
 			buildConfigurationList = F159C7A92C63AD8C00558F36 /* Build configuration list for PBXProject "MeritCard" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -215,6 +245,9 @@
 				Base,
 			);
 			mainGroup = F159C7A52C63AD8C00558F36;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 100;
 			productRefGroup = F159C7AF2C63AD8C00558F36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,55 +262,56 @@
 /* Begin PBXResourcesBuildPhase section */
 		F159C7AC2C63AD8C00558F36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F159C7B92C63AD8D00558F36 /* Preview Assets.xcassets in Resources */,
 				F159C7B62C63AD8D00558F36 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F159C7BC2C63AD8D00558F36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F159C7C62C63AD8D00558F36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F159C7AA2C63AD8C00558F36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F159C7B42C63AD8C00558F36 /* ContentView.swift in Sources */,
+				F159C7DE2C63B8F100558F36 /* MeritCard.swift in Sources */,
+				F1D594BF2E7D9F22008F4810 /* MeritCelebration.swift in Sources */,
+				F1096DC22C6D234C002973DB /* MeritCardDetail.swift in Sources */,
+				F1A5B0D82CB9692900DE5E00 /* MeritLogFile.swift in Sources */,
+				F1456E952C750AFA005AED70 /* MeritCell.swift in Sources */,
+				F1A709282C92FD6E00CFFBEE /* MeritDetailChange.swift in Sources */,
+				F11F09E52CDD48C700FD25C6 /* MeritLoadInitialData.swift in Sources */,
+				F185A2D22ED9FE1100A7C254 /* MeritIcon.swift in Sources */,
 				F159C7B22C63AD8C00558F36 /* MeritCardApp.swift in Sources */,
+				F159C7DC2C63B78800558F36 /* Merit.swift in Sources */,
+				F1ED0D3C2CEE737600906E38 /* MeritEnterPassword.swift in Sources */,
+				F1533BA52CBADDF30032C824 /* MeritLogFileView.swift in Sources */,
+				F13998BD2E81B7CA00202F7B /* MeritAbout.swift in Sources */,
+				F159F25E2EAFCA2F00F8ECF2 /* MeritSettingsView.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F159C7BA2C63AD8D00558F36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F159C7C32C63AD8D00558F36 /* MeritCardTests.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F159C7C42C63AD8D00558F36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F159C7CF2C63AD8D00558F36 /* MeritCardUITestsLaunchTests.swift in Sources */,
 				F159C7CD2C63AD8D00558F36 /* MeritCardUITests.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -295,7 +329,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F159C7D02C63AD8D00558F36 /* Debug */ = {
+		F159C7D02C63AD8D00558F36 /* Debug configuration for PBXProject "MeritCard" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,6 +364,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z53GZUGWRB;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -353,12 +388,13 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		F159C7D12C63AD8D00558F36 /* Release */ = {
+		F159C7D12C63AD8D00558F36 /* Release configuration for PBXProject "MeritCard" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -393,6 +429,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z53GZUGWRB;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -408,13 +445,15 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F159C7D32C63AD8D00558F36 /* Debug */ = {
+		F159C7D32C63AD8D00558F36 /* Debug configuration for PBXNativeTarget "MeritCard" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -422,28 +461,35 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeritCard/Preview Content\"";
-				DEVELOPMENT_TEAM = Z53GZUGWRB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Merit Card";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MeritCard;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeritCard-General";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F159C7D42C63AD8D00558F36 /* Release */ = {
+		F159C7D42C63AD8D00558F36 /* Release configuration for PBXNativeTarget "MeritCard" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -451,40 +497,49 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeritCard/Preview Content\"";
-				DEVELOPMENT_TEAM = Z53GZUGWRB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Merit Card";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MeritCard;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MeritCard-General";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		F159C7D62C63AD8D00558F36 /* Debug */ = {
+		F159C7D62C63AD8D00558F36 /* Debug configuration for PBXNativeTarget "MeritCardTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z53GZUGWRB;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MeritCardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,19 +547,21 @@
 			};
 			name = Debug;
 		};
-		F159C7D72C63AD8D00558F36 /* Release */ = {
+		F159C7D72C63AD8D00558F36 /* Release configuration for PBXNativeTarget "MeritCardTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z53GZUGWRB;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MeritCardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,17 +569,20 @@
 			};
 			name = Release;
 		};
-		F159C7D92C63AD8D00558F36 /* Debug */ = {
+		F159C7D92C63AD8D00558F36 /* Debug configuration for PBXNativeTarget "MeritCardUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z53GZUGWRB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MeritCardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,17 +590,20 @@
 			};
 			name = Debug;
 		};
-		F159C7DA2C63AD8D00558F36 /* Release */ = {
+		F159C7DA2C63AD8D00558F36 /* Release configuration for PBXNativeTarget "MeritCardUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z53GZUGWRB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MeritCardUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -554,37 +617,33 @@
 		F159C7A92C63AD8C00558F36 /* Build configuration list for PBXProject "MeritCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F159C7D02C63AD8D00558F36 /* Debug */,
-				F159C7D12C63AD8D00558F36 /* Release */,
+				F159C7D02C63AD8D00558F36 /* Debug configuration for PBXProject "MeritCard" */,
+				F159C7D12C63AD8D00558F36 /* Release configuration for PBXProject "MeritCard" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F159C7D22C63AD8D00558F36 /* Build configuration list for PBXNativeTarget "MeritCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F159C7D32C63AD8D00558F36 /* Debug */,
-				F159C7D42C63AD8D00558F36 /* Release */,
+				F159C7D32C63AD8D00558F36 /* Debug configuration for PBXNativeTarget "MeritCard" */,
+				F159C7D42C63AD8D00558F36 /* Release configuration for PBXNativeTarget "MeritCard" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F159C7D52C63AD8D00558F36 /* Build configuration list for PBXNativeTarget "MeritCardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F159C7D62C63AD8D00558F36 /* Debug */,
-				F159C7D72C63AD8D00558F36 /* Release */,
+				F159C7D62C63AD8D00558F36 /* Debug configuration for PBXNativeTarget "MeritCardTests" */,
+				F159C7D72C63AD8D00558F36 /* Release configuration for PBXNativeTarget "MeritCardTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F159C7D82C63AD8D00558F36 /* Build configuration list for PBXNativeTarget "MeritCardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F159C7D92C63AD8D00558F36 /* Debug */,
-				F159C7DA2C63AD8D00558F36 /* Release */,
+				F159C7D92C63AD8D00558F36 /* Debug configuration for PBXNativeTarget "MeritCardUITests" */,
+				F159C7DA2C63AD8D00558F36 /* Release configuration for PBXNativeTarget "MeritCardUITests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
